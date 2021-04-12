@@ -1,0 +1,1 @@
+web gunicorn todoslit.wsgi:application --log-file -
