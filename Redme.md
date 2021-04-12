@@ -42,7 +42,7 @@ Add '*' (all users) in ALLOWED_HOSTS
 > > git remote add {REMOTE NAME} {GIT URL}
 > > heroku addons:create heroku-postgresql:hobby-dev
 > > git add .
-> > git commit -m"{MESSAGE}
+> > git commit -m"{MESSAGE}"
 > > git push {REMOTE NAME} master heroku
 > > python manage.py makemigrations heroku
 > > python manage.py migrate
